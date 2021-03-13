@@ -10,7 +10,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -20,7 +19,7 @@ body {
    
 }
 
-/*********** Utility ***********/
+/*********** Utility **********
 .container {
     position: sticky;
     overflow: hidden;
@@ -34,8 +33,6 @@ body {
 #main-nav {
      margin: 0  6.5rem;
      border-bottom: 1px orange solid;
-  
-
 } 
 
 .nav-container {
@@ -84,7 +81,6 @@ body {
     border-radius: 150%;
     border: 1px #000 solid;
     padding: 0.69rem 0.72rem;
- 
 }
 
 .social i:hover{
@@ -94,7 +90,6 @@ body {
     border: none;
     border: solid #fa8905 1px;
 }
-
 
  .social .icon i {
     width: 2.5rem;
@@ -136,7 +131,8 @@ span {
     color: rgb(61, 51, 51);
     font-weight: bold;
     background: none;  
-    margin-bottom: 1.3rem; 
+   margin-bottom: 1.3rem; 
+  
 }
 
 
@@ -156,25 +152,28 @@ span {
 }
 
 #main-banner {
-    background: url('../img/banner.jpg')
-    no-repeat center center/cover;
-    position: relative;
-    height: 110vh;  
+   background: url('../img/banner.jpg')
+   no-repeat center center/cover;
+   position: relative;
+   max-height: 108vh;
+   
 }
 
 
 /*******Boxes*******/
-
-
- .six-box {
+#main-banner .six-box {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center; 
+    text-align: center;
+    height: 100%;
 }
 
-#main-banner .container {
+#showcase .box-container {
     margin: 0 6rem;
+    top:500px;
+   
+   height: 100%;
   
 }
 
@@ -197,8 +196,6 @@ span {
     font-weight: 500;
     word-break: 0.3px; 
     position: sticky;
-    
-   
 }
   
 
@@ -243,6 +240,7 @@ span {
     width: 95%;
     padding-top: 3rem;
     padding-left: 0.7rem;
+
 } 
 
 #about .about-text{
@@ -503,10 +501,8 @@ span {
 }
 
 
-
 .contact-container .form-details .form-group .item {
-    margin: 1.2rem 0;
-    
+    margin: 1.2rem 0;  
 }
 
 .form-group input:focus,textarea {
