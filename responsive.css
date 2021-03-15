@@ -4,27 +4,43 @@
 @media only screen and (max-width: 600px) {
 
     /********** Navbar ***********/
+    #main-banner {
+        background: url('../img/banner.jpg')
+        no-repeat center center/cover;
+        position: relative;
+        max-height: 80vh; 
+     }
+
     #main-nav {
-        margin: 0  2rem;
+        margin: 0  0.1px;
         border-bottom: 1px orange solid;
     }
 
     .nav-container {
-        padding: 0.1rem  7rem;
-       
+        padding: 0.1rem  3rem;
+        padding-bottom: 1rem;
         align-items: center; 
         overflow: hidden; 
     }
     
-    #main-nav .logo {
-       display: block;
-        align-items: center; 
+
+    .nav-container .logo {
+        width: 120px;
+        height: 70px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 6rem;
+        margin-top: -1.8rem;  
     }
+
 
     #main-nav  ul {
         display: flex;
         list-style: none;
         margin-top: 6rem;  
+        margin-right: 16rem;
+
     }
 
     #main-nav .social {
@@ -34,12 +50,38 @@
     }
     
     #main-nav .social i {
-        font-size: 1.25rem;
-        padding: 0.65rem 0.73rem;
+        text-align: center;
+        font-size: 1rem;
+        padding: 0.69rem 0.73rem;
+        margin-right: 0.4rem;
     }
 
     #main-nav .social .icon i {
-        width: 2.7rem; 
+        width: 2.5rem; 
+    }
+
+    
+    /********* Showcase **********/
+    #showcase .container {
+        padding: 2.1rem  1rem;
+    }
+
+    #showcase strong {
+        font-size: 4.5rem;
+        line-height: 5.2rem;
+    }
+    #showcase h1 {
+        font-size: 3.9rem;
+    }
+
+    #showcase span {
+        font-size: 1.14rem;
+    }
+
+    #showcase .btn {
+        margin-top: 3rem;
+        
+       margin-bottom: 1.3rem;
     }
     
 }

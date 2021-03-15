@@ -6,17 +6,15 @@
 }
 
 
-*{
+*{  
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background: #fff;
-   
-   
 }
 
 /*********** Utility **********
@@ -112,14 +110,14 @@ body {
     color: #eb622c;
 }  
 
-h1 {
+#showcase h1 {
     font-weight: normal;
     font-size: 7.5rem;
     letter-spacing: 0.1px;
     margin-bottom: 1rem;
 }
 
-span {
+#showcase span {
     font-size: 1.4rem;
 }
 
@@ -155,8 +153,7 @@ span {
    background: url('../img/banner.jpg')
    no-repeat center center/cover;
    position: relative;
-   max-height: 108vh;
-   
+   max-height: 108vh; 
 }
 
 
