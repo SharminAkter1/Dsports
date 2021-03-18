@@ -129,8 +129,7 @@ body {
     color: rgb(61, 51, 51);
     font-weight: bold;
     background: none;  
-   margin-bottom: 1.3rem; 
-  
+    margin-bottom: 1.3rem; 
 }
 
 
@@ -201,11 +200,11 @@ body {
 }
 
 .black_box .box-2 {
-    padding: 36px  53px;
+    padding: 36px  52px;
 }
 
 .black_box .box-3 {
-    padding: 36px  41px;
+    padding: 36px  37.6px;
   
 }
 
@@ -214,11 +213,11 @@ body {
 }
 
 .black_box .box-5 {
-    padding: 36px 70px;
+    padding: 36px 69px;
 }
 
 .black_box .box-6 {
-    padding: 36px 33px;
+    padding: 36px 33.2px;
   
 }
 
@@ -293,20 +292,23 @@ body {
 #training .training_packages_box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background:  #ff8c00;
-   
+    background:  #ff8c00; 
 }
 
-.package-box-1 {
+.package-box {
     margin: 5rem  0rem; 
 }
 
-.package-box-1 .border {
+.package-box .border {
     border-right: 1px #fff solid;
     height: 100%;
 }
 
-.package-box-1 h3 {
+.package-box-3 .border {
+    border-right: none;
+}
+
+.package-box h3 {
     padding-top: 1.7rem;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -315,22 +317,22 @@ body {
     font-weight: 550;
 }
 
-.package-box-1 h3:hover {
+.package-box h3:hover {
     color: #fff;
 }
 
-.package-box-1 span {
+.package-box span {
     font-weight: 500;
     font-size: 1.63rem;
     word-spacing: -0.4rem; 
 }
 
-.package-box-1 .white_bold {
+.package-box .white_bold {
     color: #fff;
     font-size: 4.3rem;
 }
 
-.package-box-1 p {
+.package-box p {
     color: #fff;
     font-size: 4.3rem;
     margin-top: -0.4rem;
@@ -338,7 +340,7 @@ body {
 
 }
 
-.package-box-1 a {
+.package-box a {
     background: #fff;
     padding: 1.2rem 4rem;
     font-size: 1rem;
@@ -349,12 +351,12 @@ body {
   
 }
 
-.package-box-1 .button{
+.package-box .button{
     padding-bottom: 2.6rem;
 
 }
 
-.package-box-1 a:hover {
+.package-box a:hover {
     background: #000;
     color: #fff;
     transition: all 0.4s ease-in;

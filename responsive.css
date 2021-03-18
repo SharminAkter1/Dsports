@@ -8,7 +8,7 @@
         background: url('../img/banner.jpg')
         no-repeat center center/cover;
         position: relative;
-        max-height: 80vh; 
+        max-height: 85vh; 
      }
 
     #main-nav {
@@ -83,6 +83,108 @@
         
        margin-bottom: 1.3rem;
     }
+
+    /*******Boxes*******/
+    #main-banner .six-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    
+    .black_box .box-1 {
+        padding: 37.8px 223px;
+    }
+
+    .black_box .box-2 {
+        padding: 36px  211.6px;
+    }
+
+    .black_box .box-3 {
+        padding: 27px  220px;
+       display: inline-block;
+         
+    }
+
+    .black_box .box-4 {
+        padding: 36px 236.2px;
+    }
+
+    .black_box .box-5 {
+        padding: 37px 226.6px;
+    }
+
+    .black_box .box-6 {
+        padding: 26px 221px;
+    
+    }
+
+    /*****About section *****/
+    #about .container {
+        margin-top: 32rem;
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    #about .about-text{
+        margin-top: -11rem;
+    }
+
+    #about .about-text h2 {
+        font-size: 2.1rem;  
+    }
+
+    #about strong{
+        font-size: 2.1rem;
+    }
+
+    #about .about-text p {
+        padding: 0.3rem 0.1rem  0rem 1.1rem;    
+    }
+
+        
+    /*******Traininig*******/
+    #training  {
+        margin-top: 6rem;
+        padding: 0rem 1rem; 
+    }
+
+    .training-title h2 {
+        font-size: 1.65rem;
+        margin-bottom: 4.8rem;
+        padding: 0rem 2.1rem; 
+    }
+    
+    #training .training_packages_box {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .package-box .border {
+        border-right: none;
+    }
+
+    .package-box {
+        margin: 0.2rem  0rem; 
+    }
+
+    .package-box-1 {
+       padding-top: 5rem;
+    }
+
+    .package-box-3 {
+        padding-bottom: 5rem;
+     }
+
+     
+    .package-box h3 {
+        font-size: 1.2rem;
+    }
+
+   
+
+
     
 }
 
