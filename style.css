@@ -230,8 +230,6 @@ body {
     grid-gap: 0.1rem;
 }
 
-
-
 #about .about-img img {
     width: 95%;
     padding-top: 3rem;
@@ -364,9 +362,10 @@ body {
 
 /******Gallery******/
 #gallery {
-    margin-top: 5.2rem;
-    margin-bottom: 39rem;
+    height: 110vh;
+    margin-top: 5.2rem; 
 }
+
 
 #gallery .gallery-container {
     text-align: center;
@@ -395,7 +394,6 @@ body {
     width: 560px;
     height: 380px;
     padding: 1rem 1.1rem 0.8rem 0.8rem;
-   
 }
 
 #left {
@@ -422,20 +420,23 @@ body {
     padding-bottom: 0.6rem; 
 }
 
-/*******Review********/
+/*******Review******/
 #review  {
-    padding-top: 6.5rem;   
+     margin-top: 8.5rem;
 }
 
 #review .review-container   {
-    text-align: center;  
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5rem;  
 }
 
 #review h2 {
     font-size: 3.45rem;
     color: #fa8905;
     text-transform: uppercase;
-    padding-bottom: 3.2rem;
+   padding-bottom: 3.2rem;
 }
 
 
@@ -451,14 +452,12 @@ body {
     line-height: 1.7;
     font-size: 17px;
     font-weight: 500;
-  
 }
 
 
 /******* Contact *******/
 #contact {
-    margin-top: 17rem;
-    
+    margin-top: 17rem;  
 }
 
 #contact .contact-container{
@@ -544,7 +543,6 @@ body {
 
 /******** Footer *******/
 #main-footer  {
-  
     background:#eb622c;
     justify-content: space-between;
     align-items: center;
